@@ -1,0 +1,26 @@
+$primary: hsl(237, 18%, 59%);
+$secondary: hsl(345, 95%, 68%);
+
+$White: hsl(0, 0%, 100%);
+$Dark-desaturated: hsl(236, 21%, 26%);
+$Very-dark-blue: hsl(235, 16%, 14%);
+$background: hsl(234, 17%, 12%);
+body {
+  background-color: $Very-dark-blue;
+}
+
+.container {
+  display: block;
+  background-color: $background;
+  background-image: url("/images/pattern-hills.svg"),
+    url("/images/bg-stars.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center, 50%, 50%;
+  max-width: 375px;
+  height: 700px;
+}
+
+.title {
+  color: #ffffff;
+}
