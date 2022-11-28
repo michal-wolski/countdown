@@ -10,7 +10,7 @@ body {
 .container {
   display: block;
   background-color: hsl(234deg, 17%, 12%);
-  background-image: url("/images/pattern-hills.svg"), url("/images/bg-stars.svg");
+  background-image: url(../images/pattern-hills.svg), url(../images/bg-stars.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom center, 50%, 50%;

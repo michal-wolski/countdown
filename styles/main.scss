@@ -16,8 +16,8 @@ body {
 .container {
   display: block;
   background-color: $background;
-  background-image: url("/images/pattern-hills.svg"),
-    url("/images/bg-stars.svg");
+  background-image: url(../images/pattern-hills.svg),
+    url(../images/bg-stars.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom center, 50%, 50%;
